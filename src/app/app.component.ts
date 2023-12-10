@@ -4,7 +4,7 @@ import { RouterModule, RouterOutlet } from '@angular/router';
 
 import { HomeComponent } from './components/home/home.component';
 import { SharedModule } from './components/shared/shared.module';
-import { routes } from './app.routes';
+
 
 @Component({
   selector: 'app-root',
@@ -14,5 +14,6 @@ import { routes } from './app.routes';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-
+  username = "slashmas"
+  isLogged = true
 }
