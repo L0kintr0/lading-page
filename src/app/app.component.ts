@@ -4,6 +4,7 @@ import { RouterModule, RouterOutlet } from '@angular/router';
 
 import { HomeComponent } from './components/home/home.component';
 import { SharedModule } from './components/shared/shared.module';
+import { routes } from './app.routes';
 
 @Component({
   selector: 'app-root',
@@ -13,5 +14,5 @@ import { SharedModule } from './components/shared/shared.module';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
- 
+
 }
