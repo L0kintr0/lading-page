@@ -2,9 +2,9 @@
   <mat-toolbar>
     <span>My Application</span>
     <a routerLink="/home" routerLinkActive="active">Home</a><span></span>
-    <a routerLink="home/products" routerLinkActive="active">Products</a><span></span>
-    <a routerLink="home/contacts" routerLinkActive="active">Contacts</a><span></span>
-    <a routerLink="home/about" routerLinkActive="active">About</a><span></span>
+    <a routerLink="/home/products" routerLinkActive="active">Products</a><span></span>
+    <a routerLink="/home/contacts" routerLinkActive="active">Contacts</a><span></span>
+    <a routerLink="/home/about" routerLinkActive="active">About</a><span></span>
   </mat-toolbar>
 </p>
 @if (isLogged) {
@@ -12,6 +12,7 @@
 }@else{
   <p>Inicia sesion</p>
 }
-
 <router-outlet/>
+
+
 
