@@ -1,7 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
-
-html, body { height: 100%; }
-body { margin: 0; font-family: Tangerine, "Tangerine", sans-serif;font-size: 32px; font-style: oblique; }
 :root{
     color-scheme: light dark;
 }
+html, body {
+     height: 100%; }
+body { margin: 0; font-family: Tangerine, "Tangerine", sans-serif;font-size: 32px; font-style: oblique; }
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 62px;
+  }
